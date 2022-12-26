@@ -111,14 +111,6 @@ nav li a:hover{
 }
 
 
-.classes h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 3vh;
-    color: black;
-
-    margin-top: 100px;
-}
-
 /* footer */
 footer h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -163,6 +155,48 @@ footer a:hover{
     text-align: center;
 }
 
+/* classes table */
+
+.classes h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vh;
+    color: black;
+
+    margin-top: 50px;
+
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+.classes table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vh;
+
+    margin-top: 10px;
+    text-align: left;
+
+    border-spacing: 50px;
+
+    align-items: center;
+
+    border: solid;
+    border-radius: 30px;
+
+    padding: 0.25rem;
+
+    margin-bottom: 50px;
+
+    background-color: black;
+
+}
+
+.classes table td {
+    color: white;
+
+    font-style: italic;
+}
+
 /* about.html */
 
 .about {
@@ -188,13 +222,13 @@ footer a:hover{
 } 
 
 .about h1 {
-    color: white;
+    color: #FFCB05;
     font-size: 8vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .about p {
-    color: white;
+    color: #FFCB05;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2vh;
 }
