@@ -30,27 +30,79 @@
 
                 <h1>ABOUT ME</h1>
                 
-                <p><br><br><br><br><br>Hello! My name is Aryan Kamath and I'm an undergraduate student at the University of Michigan - Ann Arbor. I hope you enjoy my website and are able to learn a little bit about my life :) <br> <br> I grew up in West Bloomfield, MI and I knew from the beginning that I wanted to be a Michigan Wolverine. Following my graduation from West Bloomfield High School in 2020, I started my freshman year at the University of Michigan. <br> <br> Although I've known since my first semester that I want to study Computer Science, it hasn't always been an easy ride. Studying in such a big school (where CS is very popular major) can be very intimidating. There were times when I faced imposter syndrome and felt like this major might not be for me. <br> <br> The work experience I've had, organizations I've joined, and the communities I am apart of have helped me foster the confidence to conquer this doubt, allowing for me to discover my passion for Computer Science! Upon my graduation in May of 2024, I hope to work full time as a software engineer. <br> <br> I am currently looking for a software engineering internship in Summer 2023. If you are interested in connecting with me please reach out to me through any of my social media or shoot an email to <b>aryank@umich.edu</b></p>
+                <p><br><br><br><br><br>Hello! My name is Aryan Kamath and I'm an undergraduate student at the University of Michigan - Ann Arbor. I hope you enjoy my website and are able to learn a little bit about my life :) <br> <br> I grew up in West Bloomfield, MI and I knew from the beginning that I wanted to be a Michigan Wolverine. Following my graduation from West Bloomfield High School in 2020, I started my freshman year at the University of Michigan. <br> <br> Although I've known since my first semester that I want to study Computer Science, it hasn't always been an easy ride. Studying in such a big school (where CS is a very popular major) can be very intimidating. There were times when I faced imposter syndrome and felt like this major might not be for me. <br> <br> The work experience I've had, organizations I've joined, and the communities I am apart of have helped me foster the confidence to conquer this doubt, allowing for me to discover my passion for Computer Science! Upon my graduation in May of 2024, I hope to work full time as a software engineer. <br> <br> I am currently looking for a software engineering internship in Summer 2023. If you are interested in connecting with me please reach out to me through any of my social media or shoot an email to <b>aryank@umich.edu</b></p>
 
             </div>
 
-            <center>
-                <div class="experience" id="exp">
-                    <h1>My work experience!</h1>
-                </div>
-            </center>
-            
-            <center>
-                <div class="organizations" id="orgs">
-                    <h1>Organizations I am apart of!</h1>
-                </div>
-            </center>
+            <div class="hypers">
 
-            <center>
-                <div class="dance" id="dan">
-                    <h1>Enjoy a few clips from shows I have danced in!</h1>
-                </div>
-            </center>
+                <center>
+                    <button id = "work" OnClick=" location.href='#workID' ">My Work Experience</button>
+                    <button id = "orgs" OnClick=" location.href='#orgsID' ">My Organizations</button>
+                    <button id = "dance" OnClick=" location.href='#danceID' ">Extra: Dance!</button>
+                </center>
+                
+            </div>
+            
+            <div class="workText" id="workID" style="background-color:#00274C">
+                <h1>Check out my past internship experience below!</h1>
+
+                <a href="https://circlebase.com/">
+                    <img src="aboutPics/circlebase.png" alt="circlebase logo pic">
+                </a>
+
+                
+                <p>Worked as a Software Engineering Intern @Circlebase to develop a highly contextualized chat bot. <u>Click on the picture to learn more about Circlebase!</u> <br> Skills: Python, RASA AI</p>
+
+                <a href="https://www.machinetools.com/en">
+                    <img src="aboutPics/MT.png" alt="machinetools logo pic">
+                </a>                
+                
+                <p>Worked as a Data Engineering Intern @MachineTools.com to scrape the web for contact information. <u>Click on the picture to learn more about MachineTools.com!</u> <br> Skills: Python, Selenium, bs4</p>
+
+            </div>
+
+            <div class="orgsText" id="orgsID" >
+                <h1>Check out the organizations I am apart of!</h1>
+
+                <a href="https://ktpmichigan.com/">
+                    <img src="aboutPics/ktp.jpeg" alt="KTP logo">
+                </a>
+
+                <a href="https://www.linkedin.com/company/qcfum/">
+                    <img src="aboutPics/QCF.jpeg" alt="logo of QCF">
+                </a>
+
+                <a href="https://www.instagram.com/wolveraas/?hl=en">
+                    <img src="aboutPics/wolveraas.jpeg" alt="logo of Wolveraas">
+                </a>
+
+                <a href="https://www.instagram.com/michiganiasa/?hl=en">
+                    <img src="aboutPics/iasa.jpeg" alt="logo of IASA">
+                </a>
+
+                <p>Member of Kappa Theta Pi - Professional Technology Fraternity. The nation's first technology fraternity centered around its five pillars: professional development, alumni connections, social growth, technological advancement, and academic support. Click on the picture to learn more about KTP!</p>
+                <p>Vice President of Consulting of Quantitative Consulting & Finance Group (QCF/QuantEdge). Worked as a software development team lead to manage and implement projects for companies. Click on the picture to learn more about QCF!</p>
+                <p>Member of competitive Indian dance team, Michigan Wolveraas. Competed in over 10 competitions around the United States and placed 9th in the country. Click on the picture to learn more about Wolveraas!</p>
+                <p>Member of the Indian American Student Association at the University of Michigan. Helped organize cultural events that promote Indian culture and performed in 2 dance shows at the Michigan Theater. Click on the picture to learn more about IASA!</p> 
+
+            </div>
+
+            <div class="danceText" id="danceID" style="background-color:#00274C">
+                <h1>Click on any of the links below to view dance shows I have participated in!</h1>
+                <iframe width="500" height="340"
+                  src="https://www.youtube.com/watch?v=XYw3MJcedEM">
+                </iframe>
+                <iframe width="500" height="340"
+                  src="https://www.youtube.com/watch?v=ygeS_jdiuqc">
+                </iframe>
+                <iframe width="500" height="340"
+                  src="https://www.youtube.com/watch?v=0qeSvF35RgI">
+                </iframe>
+
+                
+            </div>
+
         </main>
 
         <footer>
@@ -74,5 +126,8 @@
                 </div>
             </div>
         </footer>
+
+        <script src = "js/about.js"></script>
+
     </body>
 </html>
